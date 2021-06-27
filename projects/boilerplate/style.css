@@ -1,0 +1,15 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+margin:0
+}
+
+p {
+  font-size: 40px
+}
+
+img {
+  max-width: 100%
+}
