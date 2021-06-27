@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0
+}
+
+p {
+  font-size: 40px;
+  font-family: "Courier New";
+  background: rgb(254, 178, 108);
+}
+
+img {
+  max-width: 100%
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:row-reverse;
+  background: #faeed2;
+  height: 100vh;
+}
+
+.row {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.circle-yellow {
+  background: #ddbe6d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 50px;
+  border-spacing: 10px;
+}
+
+.circle-blue {
+  background: #7fc7d0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 50px;
+    border-spacing: 10px;
+}
+
+.circle-pink {
+  background: #efc2c0;
+  width: 40px;
+  height: 40x;
+  border-radius: 50%;
+  padding: 50px;
+    border-spacing: 10px;
+}
+
+.circle-green {
+  background: #c8debd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 50px;
+    border-spacing: 10px;
+}
+
+.circle-yellow:hover {
+  background: #452c1d;
+}
+
+.circle-blue:hover {
+  background: #452c1d;
+}
+
+.circle-pink:hover {
+  background: #452c1d;
+}
+
+.circle-green:hover {
+  background: #452c1d;
+}
+
+div {
+  display: block;
+}
