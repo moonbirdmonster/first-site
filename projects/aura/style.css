@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(247, 255, 214);
+}
+
+p {
+  font-size: 40px;
+  font-family: "Courier New";
+  color: rgb(30, 86, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  display: flex;
+  background: rgb(247, 255, 214);
+  border-top: orange;
+  border-left: thistle;
+  border-right: rgb(255, 252, 175);
+  border-bottom: rgb(193, 235, 255);
+  border-width: 20px;
+  border-radius: 50%;
+  flex-direction: row;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  border-style: outset;
+  animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+div {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: lightgreen;
+  }
+
+  .row-1 {
+    flex-direction: column;
+  }
+
+  .top-row {
+    width: 100%;
+  }
+}
