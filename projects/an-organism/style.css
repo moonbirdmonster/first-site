@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(67, 255, 0);
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(255, 0, 214);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Times New Roman";
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+}
+
+h4 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(0, 255, 247);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h5 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h6 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: thistle;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h7 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: yellow;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h8 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: olive;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h9 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(244, 116, 0);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+img {
+  max-width: 100%
+}
+
+.flex-container {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  height: 100vh;
+  height: 100vw;
+}
+
+.box-right {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.box-left {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.fixed {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  justify-content: flex-end;
+  bottom: 0;
+  left:0;
+}
+
+div {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: lightgreen;
+  }
+
+  .row-1 {
+    flex-direction: column;
+  }
+
+  .top-row {
+    width: 100%;
+  }
+}
