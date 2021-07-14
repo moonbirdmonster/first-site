@@ -88,8 +88,27 @@ h9 {
   align-items: left;
 }
 
+h10 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(227, 136, 166);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h11 {
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: rgb(136, 227, 219);
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
 img {
-  max-width: 100%
+  max-width:50%;
+  max-height:30%;
 }
 
 .flex-container {
